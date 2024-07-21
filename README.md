@@ -2,7 +2,7 @@
 # Github's Contribution Calendar (Astrojs)
 This project shows github's contribution calendar.
 
-Here [Demo](https://github-contrib-calendar.web.app/)
+Here [Demo](https://github-calendar.stkngesk.tech)
 
 [![](https://firebasestorage.googleapis.com/v0/b/github-contrib-calendar.appspot.com/o/github-contrib-calendar-stkngesk-astro.png?alt=media&token=16b55a5d-c6aa-480d-9de2-bc2d3b73144d)](https://github-calendar.stkngesk.tech)
 
