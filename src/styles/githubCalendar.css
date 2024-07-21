@@ -1,0 +1,209 @@
+.a-link {
+  text-decoration: none;
+  color: whitesmoke;
+  display: flex;
+}
+
+.github-username {
+  padding-left: 10px;
+  align-self: center;
+}
+
+.years {
+  font-family: var(--font-family);
+  background-color: #030c0b;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding-left: 9px;
+}
+
+.github {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url("../../src/assets/github.svg");
+  background-size: 32px;
+  background-position: center;
+  filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(104%) contrast(105%);
+}
+
+.dark {
+  background-color: #040404;
+  --color-calendar-graph-day-bg: #0035302b;
+  --color-calendar-graph-day-L1-bg: #01311f;
+  --color-calendar-graph-day-L2-bg: #034525;
+  --color-calendar-graph-day-L3-bg: #0f6d31;
+  --color-calendar-graph-day-L4-bg: #00c647;
+  --color-text-primary: #c9d1d9;
+  --color-text-secondary: #586069;
+  --color-border-primary: #0035302b;
+}
+
+rect.ContributionCalendar-day {
+  shape-rendering: geometricPrecision;
+  outline: 1px solid var(--color-calendar-graph-day-border);
+  outline-offset: -1px;
+  rx: 2;
+  ry: 2;
+}
+
+.ContributionCalendar-label {
+  padding: 0.125em 0.5em 0.125em 0;
+  font-size: 12px;
+  font-weight: var(--base-text-weight-normal, 400);
+  color: var(--color-text-primary);
+  text-align: left;
+  fill: var(--color-text-primary);
+}
+
+.ContributionCalendar-day,
+.ContributionCalendar-day[data-level="0"] {
+  fill: var(--color-calendar-graph-day-bg);
+  shape-rendering: geometricPrecision;
+  background-color: var(--color-calendar-graph-day-bg);
+  border-radius: 2px;
+  outline: 1px solid var(--color-calendar-graph-day-border);
+  outline-offset: -1px;
+}
+
+.ContributionCalendar-day[data-level="1"] {
+  fill: var(--color-calendar-graph-day-L1-bg);
+  background-color: var(--color-calendar-graph-day-L1-bg);
+  outline: 1px solid var(--color-calendar-graph-day-L1-border);
+}
+
+.ContributionCalendar-day[data-level="2"] {
+  fill: var(--color-calendar-graph-day-L2-bg);
+  background-color: var(--color-calendar-graph-day-L2-bg);
+  outline: 1px solid var(--color-calendar-graph-day-L2-border);
+}
+
+.ContributionCalendar-day[data-level="3"] {
+  fill: var(--color-calendar-graph-day-L3-bg);
+  background-color: var(--color-calendar-graph-day-L3-bg);
+  outline: 1px solid var(--color-calendar-graph-day-L3-border);
+}
+
+.ContributionCalendar-day[data-level="4"] {
+  fill: var(--color-calendar-graph-day-L4-bg);
+  background-color: var(--color-calendar-graph-day-L4-bg);
+  outline: 1px solid var(--color-calendar-graph-day-L4-border);
+}
+
+.width-full {
+  width: 100% !important;
+}
+
+.f6 {
+  font-size: 12px !important;
+}
+
+.color-fg-muted {
+  color: var(--fgColor-muted, var(--color-text-secondary)) !important;
+}
+
+.Link--muted {
+  color: var(--color-text-secondary) !important;
+}
+
+.flex-items-end {
+  align-items: center !important;
+}
+
+.graph-before-activity-overview {
+  border-radius: 6px;
+}
+
+.border {
+  border: 1px solid var(--color-border-primary) !important;
+}
+
+b {
+  color: var(--color-text-primary);
+}
+
+.ContributionCalendar-grid {
+  width: max-content;
+  border-collapse: separate;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  word-wrap: normal;
+  border: 0;
+}
+
+.f6 {
+  font-size: 12px !important;
+}
+
+.width-full {
+  width: 100% !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.flex-column {
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+@media (min-width: 768px) {
+  .w-50 {
+    width: 60%;
+  }
+  .pl-md-5,
+  .px-md-5 {
+    padding-left: 3rem !important;
+  }
+  .pr-md-5,
+  .px-md-5 {
+    padding-right: 3rem !important;
+  }
+}
+
+.pb-1,
+.py-1 {
+  padding-bottom: 0.25rem !important;
+}
+
+.pt-1,
+.py-1 {
+  padding-top: 0.25rem !important;
+}
+
+.pl-0,
+.px-0 {
+  padding-left: 0 !important;
+}
+
+.pr-0,
+.px-0 {
+  padding-right: 0 !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.mr-1,
+.mx-1 {
+  margin-right: 0.25rem !important;
+}

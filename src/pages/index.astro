@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import GithubCalendar from "../components/GithubCalendar";
+import Footer from "../components/Footer.astro";
+const users = ["JeanStkng", "ChristianEsk"];
+---
+
+<Layout title="Github calendar">
+	{users.map((user) => <GithubCalendar user={user} client:visible />)}
+	<Footer />
+</Layout>
